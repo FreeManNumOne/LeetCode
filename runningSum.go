@@ -20,7 +20,7 @@ import "fmt"
 提示：
 1 <= nums.length <= 1000
 -10^6 <= nums[i] <= 10^6*/
-
+//对数组进行循环，然后求和
 func runningSum(nums []int) []int {
 	result := []int{}
 	var sum int
@@ -38,7 +38,6 @@ func runningSum(nums []int) []int {
 }
 
 func main() {
-
 	sums := []int{1, 2, 3, 4, 5}
 	x := runningSum(sums)
 	fmt.Println(x)
